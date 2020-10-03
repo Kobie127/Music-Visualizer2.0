@@ -4,6 +4,7 @@ CRGB leds[NUM_LEDS];
 #define PIN 6
 #define BRIGHTNESS 12
 
+//Test
 void setup()
 {
   FastLED.addLeds<WS2811, PIN, GRB>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
